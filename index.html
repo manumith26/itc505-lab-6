@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab-6</title>
+</head>
+<body>
+    <header>
+        <h1>Sum of two numbers</h1>
+    </header>
+
+    <div class="grid-container">
+        <aside class="menu-sidebar">
+            <!-- Navigation links -->
+            <a href="#">first number</a>
+            <a href="#">second number</a>
+<main class="main-content-area">
+        <button id="mybutton">SUM</button>
+        <p id="message"></p>
+        </aside>
+
+        <main class="main-content">
+            <h2>Giving two different numbers and getting their sum</h2>
+            <div class="container">
+                <!-- JavaScript interface content -->
+                <form id="additionForm">
+        <p><label for="num1">Enter the first number:</label>
+        <input type="number" id="num1" name="num1" required></p>
+
+
+        <p><label for="num2">Enter the second number:</label></p>
+        <input type="number" id="num2" name="num2" required>
+
+        <button type="button" onclick="addNumbers()">Add</button>
+    </form>
+<p id="result"></p>
+           </div>
+        </main>
+
+        <aside class="advertisement">
+            <!-- Amazon product image with a clickable link -->
+            <a href="https://www.amazon.com/Illusion-Platform-Night-Lighting-Change/dp/B07R8DD8PB/ref=asc_df_B07R8DD8PB/?tag=&linkCode=df0&hvadid=366288678718&hvpos=&hvnetw=g&hvrand=15134194270985970778&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1013406&hvtargid=pla-802828397660&mcid=51994b28e60d339897c35ef30cbc609e&ref=&adgrpid=75985295013&th=1" target="_blank">
+                 <img src="3.jpg" alt="Amazon Product" width="350" height="250" >
+            </a>
+        </aside>
+    </div>
+
+    <footer>
+        <!-- Your addendum content goes here -->
+        <h2> <b> Addendum: </h2></b>
+<p><li>Here the user needed to enter first number and second number then after by clicking the add button it will give the result by adding those numbers.</p></li>
+<p><li> numbers will be entered in input boxes. And to get the result I have added button click.</p></li>
+<p><li> To solve the problem, I have converted the input values to floating-point numbers using the parseFloat function. And I used isNaN to check for proper numeric input.</p></li>
+<p><li> If the input is wrong,then it prompts a message that the input is invalid.</p></li>
+<p><li> I haven't found more difficulties while creating this problem.</p></li>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
